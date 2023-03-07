@@ -12,7 +12,7 @@ export const AddCategory = ({onNewValue}) => {
       setInputValue('')
       onNewValue( inputValue.trim() )
     }
-    console.log(inputValue);
+    
   return (
     <form onSubmit={onSubmit}>
         <input 

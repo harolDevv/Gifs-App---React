@@ -8,7 +8,7 @@ import {GiftGrid,  AddCategory} from './components'
 
 const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState([])
+    const [categories, setCategories] = useState(['One Piece'])
 
     const onAddCategory  = (newCategory) => {
         //si la ctegoria ya existe salte
@@ -16,7 +16,7 @@ const GifExpertApp = () => {
 
         setCategories([ newCategory, ...categories  ])
     }
-    console.log(categories);
+   
   return (
     <>
     <h1>GifExpertApp</h1>
